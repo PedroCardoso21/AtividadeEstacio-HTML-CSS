@@ -1,0 +1,1 @@
+Este repositório é o registro da minha resolução das atividades da Lista 1 da matéria "Desenv. Web em Html5, Css, Javascript e Php"
