@@ -1,57 +1,53 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;;
-}
+} 
 
 header {
     text-align: center;
-    margin-top: 3%
+    font-size: 25px;
 }
-
-h1 {
-    font-size: 30px;
-    margin: 0
-}
-
-p {
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-footer p {
-    margin-top: 38%;
-    text-align: right;
-}   
 
 .serverSide {
-    float: left;
-    width: 500px;
-    height: 265px;
-    padding: 30px;
-    border: 10px solid rgb(0, 0, 0);
-    margin: 40px;
-    margin-left: 100px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    border-radius: 10%;
-    background-color: rgb(220, 114, 183);
+    width: 400px;
+    border: 4px solid black;
+    border-radius: 8%;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 3px 7px 1px rgb(105, 104, 104);
+    position: relative;
+    top: 80px; left: 220px;
 }
 
-.serverSide p, .serverSide ul, .clientSide p, .clientSide ul {
-    font-size: 20px;
+.serverSide h1 {
+    text-align: center;
 }
 
+.serverSide p, ul {
+    font-size: 18px;
+}
 
 .clientSide {
-    float: right;
-    width: 500px;
-    height: 265px;
-    padding: 30px;
-    border: 10px solid black;
-    margin: 40px;
-    margin-right: 100px;
-    margin-top: 10%;
-    margin-bottom: 10%;  
-    border-radius: 10%;
-    background-color:#64b4d4;
+    width: 400px;
+    border: 4px solid black;
+    border-radius: 8%;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 3px 7px 1px rgb(105, 104, 104);
+    position: relative;
+    top: -299px; left: 800px;
+}
+
+.clientSide h1 {
+    text-align: center;
+}
+
+.clientSide p, ul {
+    font-size: 18px;
+}
+
+footer {
+    text-align: right;
+    margin-top: -3%;
 }
