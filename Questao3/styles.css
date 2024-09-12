@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;;
+}
+
+header {
+    text-align: center;
+    margin-top: 3%
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+footer p {
+    margin-top: 38%;
+    text-align: right;
+}   
+
+.serverSide {
+    float: left;
+    width: 500px;
+    height: 265px;
+    padding: 30px;
+    border: 10px solid rgb(0, 0, 0);
+    margin: 40px;
+    margin-left: 100px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10%;
+    background-color: rgb(220, 114, 183);
+}
+
+.serverSide p, .serverSide ul, .clientSide p, .clientSide ul {
+    font-size: 20px;
+}
+
+
+.clientSide {
+    float: right;
+    width: 500px;
+    height: 265px;
+    padding: 30px;
+    border: 10px solid black;
+    margin: 40px;
+    margin-right: 100px;
+    margin-top: 10%;
+    margin-bottom: 10%;  
+    border-radius: 10%;
+    background-color:#64b4d4;
+}
