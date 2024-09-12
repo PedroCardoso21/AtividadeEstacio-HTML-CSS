@@ -1,0 +1,14 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(211, 219, 225);
+}
+
+p{
+    font-size: 18px; 
+}
+
+img {
+    width: 180px;
+    height: 125px;
+}
+
